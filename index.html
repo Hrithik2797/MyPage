@@ -7,7 +7,7 @@
     </title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
     <script src="portfolio.js"></script>
 </head>
@@ -17,9 +17,9 @@
     <!-- title and tag -->
     <div class="container">
         <div class="topnav" id="myTopnav">
-            <a href="#home" class="active">Home</a>
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
+            <a href="index.html" class="active">Home</a>
+            <a href="Introduction.html">Intro</a>
+            <a href="Work.html">Work</a>
             <a href="#about">About</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
@@ -34,7 +34,7 @@
 
 
         <div class="dark-mode">
-            <button type="button" id="darkbtn1" class="darkbtn" onclick=Dark();>Dark Mode</button>
+            <button type="button" id="darkbtn1" class="darkbtn" onclick=Dark();>Dark Mode </button>
         </div>
 
         <div class="row">
@@ -42,11 +42,11 @@
                 <div class="content">
                     <img src="Images/Introduction-862x414-2-862x414-min-862x414.png" alt="" style="width:100%">
                     <h3>
-                        <a href="#">My Introduction</a>
+                        <a href="Introduction.html">My Introduction</a>
                     </h3>
-                    <p>
-                        Hi,my name is Hrithik Sharma.I have completed my graduation from SRM University in the field of computer science.As of now I am working as software engineer at 3clogic,Noida.Passion drives me to play cricket at 40 degrees.Sky Diving in Spain one of the
-                        dreams I am earning money for.
+                    <p id="home">
+                        Hi,my name is Hrithik Sharma.I have completed my graduation from SRM University in the field of computer science.As of now I am working as software engineer at 3clogic,Noida.Passion drives me to play cricket at 40 degrees.Sky Diving in Spain is one of
+                        the dreams I am earning money for.
                     </p>
                 </div>
             </div>
@@ -57,28 +57,23 @@
                     <h3>
                         <a href="#">Social Media Follows</a>
                     </h3>
-
-
-                    <ul>
-                        <li>Instagram: @sharmahrithik</li>
-                        <li>Snapchat: hrithik2797</li>
-                        <li>Facebook: Hrithik Sharma</li>
-                        <li>Instagram: @sharmahrithik</li>
-
-
-                    </ul>
-
+                    <p id="home">
+                        <ul>
+                            <li>Instagram: <a href="https://www.instagram.com/sharmahrithik/">@sharmahrithik</a></li>
+                            <li>Snapchat: <a href="https://www.snapchat.com/add/hrithik2797">hrithik2797</a></li>
+                            <li>Facebook: <a href="https://www.facebook.com/hrithik.sharma.10">Hrithik Sharma</a></li>
+                        </ul>
+                    </p>
                 </div>
             </div>
-
             <div class="column">
                 <div class="content">
                     <img src="Images/work-in-denmark.jpg" alt="" style="width:100%">
                     <h3>
-                        <a href="#">My Work</a>
+                        <a href="Work.html">My Work</a>
                     </h3>
 
-                    <p>
+                    <p id="home">
                         Created mail-sender project for college major using python.<br> Made REST API's using JavaScript<br> Worked with tools like Postman,Jmeter,Audacity etc.<br> Working knowledge of telephony systems.
                     </p>
                 </div>
@@ -87,13 +82,20 @@
             <div class="column">
                 <div class="content">
                     <img src="Images/music-note-design-element-doodle-260nw-616470641.webp" alt="" style="width:100%">
+                    <br>
                     <h3>
                         <a href="#">Song I like</a>
                     </h3>
 
-                    <p>
-                        Fireproof
-                        <audio src="Sounds/One Direction - Fireproof.mp3" controls> </audio>
+                    <p id="home">
+                        <ul id="home">
+                            <li>Fireproof</li>
+                            <li>Hymn For the Weekend</li>
+                            <li>Fireproof</li>
+                            <li>Night Changes</li>
+                        </ul>
+
+                        <!-- <audio src="Sounds/One Direction - Fireproof.mp3" controls> </audio> -->
 
                     </p>
                 </div>

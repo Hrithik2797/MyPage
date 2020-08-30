@@ -1,115 +1,11 @@
-.darkmode {
-    background-color: black;
-    filter: invert(1) hue-rotate(180deg);
-}
-
-
-/* wildcard styling */
-
-* {
-    box-sizing: border-box;
-}
-
-
-/* padding for whole body */
-
-body {
-    padding: 15px;
-    background-color: lightsteelblue;
-}
-
-
-/* styling body */
-
 .container {
     max-width: 1200px;
     margin: auto;
 }
 
-h1 {
-    color: green;
-}
-
-
-/* anchor tag decoration */
-
-a {
-    text-decoration: none;
-    color: #5673C8;
-}
-
-a:hover {
-    color: greenyellow;
-}
-
-
-/* paragraph tga decoration */
-
-
-/* p {
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 4;
-    overflow: hidden;
-} */
-
-#home {
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 4;
-    overflow: hidden;
-}
-
-p>ul {
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 4;
-    overflow: hidden;
-}
-
-audio {
-    width: 220px;
-}
-
-
-/* row and column decoration */
-
-.row {
-    margin: 0px -18px;
-    padding: 8px;
-}
-
-.row>.column {
-    padding: 6px;
-}
-
-.column {
-    float: left;
-    width: 25%;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
-/* content decoration */
-
-.content {
-    background-color: white;
-    padding: 10px;
-    border: 1px solid gray;
-}
-
-
-/* Style page content */
-
-.main {
-    margin-left: 160px;
-    /* Same as the width of the sidebar */
-    padding: 0px 10px;
+.darkmode {
+    background-color: black;
+    filter: invert(1) hue-rotate(180deg);
 }
 
 .darkbtn {
@@ -178,6 +74,34 @@ audio {
         float: right;
         display: block;
     }
+}
+
+
+/* padding for whole body */
+
+body {
+    padding: 15px;
+    background-color: lightsteelblue;
+}
+
+h1 {
+    color: green;
+}
+
+
+/* anchor tag decoration */
+
+a {
+    text-decoration: none;
+    color: #5673C8;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+p {
+    font-size: 35px;
 }
 
 
