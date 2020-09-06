@@ -12,6 +12,12 @@ h3 {
     color: green;
 }
 
+#CurrentlyPlaying,
+#CurrentSong {
+    font-size: large;
+    color: purple;
+}
+
 #songList {
     background: lightskyblue;
     border-radius: 10px;

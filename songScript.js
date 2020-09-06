@@ -1,4 +1,4 @@
-const songs = ["See You Again.mp3", "One Dance.mp3", "Fireproof.mp3", "CASTLE OF GLASS.mp3", "Chains.mp3", "Coldplay - Hymn For The Weekend", "Demonise.mp3", "Me, Myself & I.mp3"];
+const songs = ["See You Again.mp3", "Shape of You.mp3", "Fireproof.mp3", "CASTLE OF GLASS.mp3", "Chains.mp3", "Coldplay - Hymn For The Weekend.mp3", "Demonise.mp3", "Me, Myself & I.mp3"];
 
 const createSongList = () => {
     const list = document.createElement("ol");
@@ -10,6 +10,7 @@ const createSongList = () => {
     }
     return list
 }
+
 document.getElementById("songList").appendChild(createSongList())
 
 songList.onclick = (e) => {
