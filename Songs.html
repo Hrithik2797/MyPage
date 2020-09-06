@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Songs I like</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="SongStyle.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.js" integrity="sha512-th3I8avnzF4BCwrfylow7+VRKCXRtC5gsZA8G4ZqaGyhFzNz7BtmPcZs/qjBv0qVRhPAlqzGwkZAliB0AAQbWQ==" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="Introduction.html">Intro</a>
+        <a href="Work.html">Work</a>
+        <a href="Songs.html" class="active">Songs</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <h1>My Songs</h1>
+    <h3>Click to Play</h3>
+    <div class="dark-mode">
+        <span>
+        <button type="button" id="darkbtn1" class="darkbtn" onclick=Dark();>Dark Mode </button>
+    </span>
+    </div>
+    <audio id="player">
+<source id = "source" >
+    Audio Not Supported!
+    </audio>
+    <span id="CurrentlyPlaying">
+
+    </span>
+    <span id="CurrentSong">
+
+    </span>
+    <div id="controls">
+        <i class="far fa-play-circle fa-6x" onclick="playAudio()"></i>
+        <i class="far fa-pause-circle fa-6x" onclick="pauseAudio()"></i>
+        <p>Volume:</p>
+        <i class="fas fa-volume-down"></i>
+        <input type="range" id="VolumeSlider" min="0" max="1" step="0.01">
+        <i class="fas fa-volume-up"></i>
+    </div>
+
+    <h3>Songs I like:</h3>
+    <div id="songList">
+
+    </div>
+    <script src="songScript.js"></script>
+</body>
+
+</html>
